@@ -39,4 +39,4 @@ if __name__ == '__main__':
     DATA_DIR = '../../../data/sepsis'
     df = load_to_dataframe(DATA_DIR)
 
-    save_pickle(DATA_DIR + '/interim/df.pkl')
+    save_pickle(df, DATA_DIR + '/interim/df.pkl')
